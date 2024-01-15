@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 May, 2023, 12:53:23 PM
+    Author     : 22036150
+*/
+body {
+    margin:0;
+    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+}
+
+h1 {
+    color: white;
+    padding-left:10px;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.searchBar {
+    height: 45px;
+    font-size: 15px;
+}
+
+.btnSearch{
+    height: 45px;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
